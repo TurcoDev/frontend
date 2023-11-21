@@ -1,0 +1,12 @@
+<div class="row">
+  <ul class="users" *ngFor="let user of users$ | async">
+    <li>
+      <!-- <img [src]="user.imgUrl" alt="" class="card-img"> -->
+      <div class="card-body">
+        <h3 class="card-title">{{ user.username }}</h3>
+        <p class="card-email">{{ user.email }}</p>
+        <p class="card-phone">{{ user.phone }}</p>
+      </div>
+    </li>
+  </ul>
+</div>
