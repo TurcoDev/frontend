@@ -2,7 +2,6 @@ import { UsersService } from './users.service';
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Observable, of } from 'rxjs';
-import { users } from "../../db/data";
 
 @Component({
   selector: 'app-users',
